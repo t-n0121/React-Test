@@ -4,7 +4,7 @@
   "description": "Thermo-Cloud管理画面",
   "main": "server.js",
   "scripts": {
-    "start": "babel-node ./bin/www",
+    "start": "./node_modules/.bin/babel-node ./bin/www",
     "test": "echo Error: no test speciﬁed && exit 1",
     "build": "webpack"
   },
